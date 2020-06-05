@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap')
+
+$dark: #061e37
+$grey: #b0bec5
+
+@font-face
+  font-family: 'Material Icons'
+  font-style: normal
+  font-weight: 400
+  src: url(MaterialIcons-Regular.eot)
+  src: local('Material Icons')
+  src: local('MaterialIcons-Regular')
+  src: url(MaterialIcons-Regular.woff2) format('woff2')
+  src: url(MaterialIcons-Regular.woff) format('woff')
+  src: url(MaterialIcons-Regular.ttf) format('truetype')
+
+
+h2
+  color: $dark
+  font-family: "Raleway"
+  font-weight: 400
+
+*
+  padding: 0
+  margin: 0
+  font-family: "Raleway"
+  color: #fff
+  transition: all 0.2s
+a
+  text-decoration: none
+
+.myrow
+  margin-left: 0
+  margin-right: 0
+.mycol
+  padding-left: 0
+  padding-right: 0
+
+.section1
+  width: 100%
+  height: 750px
+  background-color: $dark
+  background: linear-gradient(-53deg, rgba(#00b8d4, 0.8) 0%, rgba(#1de9b6, 0.8) 100%), url(1.png)
+  background-size: cover
+
+.top-nav
+  transform: translateY(50px)
+  &_menu
+    list-style: none
+    text-transform: uppercase
+    display: inline-block
+    margin-left: 70px
+    ul
+      padding-top: 50px
+
+    li
+      margin-right: 49px
+      font-size: 15px
+      font-weight: 400
+      line-height: 25px
+      float: left
+    & a:hover
+      color: $dark
+
+  &_sign
+    margin-left: 100px
+    margin-bottom: 10px
+    width: 80px
+    height: 25px
+    border-radius: 2px
+    border: 1px solid #ffffff
+    a
+      width: 40px
+      height: 13px
+      color: #ffffff
+      font-family: Raleway
+      font-size: 12px
+      font-weight: 400
+      padding-left: 19px
+    &:hover
+      border: 1px solid black
+      background-color: $dark
+
+.text
+  width: 580px
+  height: 223px
+  margin-top: 169px
+  float: left
+  & h1
+    width: 471px
+    height: 107px
+    color: #ffffff
+    font-size: 55px
+    font-weight: bold
+    line-height: 65px
+    text-transform: uppercase
+  & p
+    margin-top: 28px
+    width: 580px
+    height: 88px
+    color: #ffffff
+    font-family: Raleway
+    font-size: 18px
+    font-weight: 400
+    line-height: 35px
+  & .button
+    display: flex
+    margin-top: 80px
+    width: 150px
+    height: 55px
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15)
+    border-radius: 5px
+    background-color: #fff
+    text-transform: uppercase
+    align-items: center
+    justify-content: center
+    font-size: 16px
+    float: left
+    & span
+      color: $dark
+    &:hover
+      background: $dark
+      & span
+        color: #fff
+  & .try
+    margin-left: 30px
+
+.video
+  width: 600px
+  height: 320px
+  background: #fff
+  border-radius: 5px
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  left: 641px
+  bottom: 223px
+
+  & .vid
+    width: 640px
+    height: 352px
+    transform: translate(55px,10px)
+    opacity: 0.2
+  & .play
+    transform: translateX(-325px)
+    cursor: pointer
+  & p
+    width: 110px
+    height: 9px
+    color: $dark
+    font-family: Raleway
+    font-size: 12px
+    font-weight: 700
+    text-transform: uppercase
+    padding-right: 1px
+    transform: translateX(-340px)
+
+.section2
+  margin-top: 99px
+  text-align: center
+  & .specifications
+    width: 555px
+    & h2
+      font-size: 45px
+    & p
+      margin-top: 14px
+      color: $grey
+      font-family: "Raleway"
+      font-size: 25px
+      font-weight: 400
+    & p:last-child
+      color: #b0bec5
+      font-family: Raleway
+      font-size: 15px
+      font-weight: 400
+      line-height: 25px
+  & .blocks
+    margin-top: 97px
+    & .block
+      max-width: 300px
+      height: 204px
+      float: left
+      & p
+        margin-top: 20px
+        color: $grey
+        font-family: "Raleway"
+        font-size: 20px
+        font-weight: 400
+        line-height: 20px
+  & .button
+    margin-top: 80px
+  & .btn
+    display: -webkit-flex
+    display: -ms-flex
+    display: flex
+    align-items: center
+    width: 150px
+    height: 55px
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15)
+    border-radius: 5px
+    background-color: #1de9b6
+    text-transform: uppercase
+    align-items: center
+    justify-content: center
+    font-size: 16px
+    &:hover
+      background-color: lighten(#1de9b6, 10%)
+
+.section3
+  margin-top: 100px
+  & .stats
+    display: -webkit-flex
+    display: -ms-flex
+    display: flex
+    justify-content: center
+    align-items: center
+    & p
+      color: #ffffff
+      font-family: "Raleway"
+      font-size: 20px
+      font-weight: 400
+      line-height: 25px
+      width: 200px
+      margin-left: 23px
+  & .business
+    height: 150px
+    background-color: #80d8ff
+    & span
+        height: 60px
+        width: 60px
+        font-family: 'Material Icons'
+        background-color: #ffffff
+        border-radius: 50%
+        color: #80d8ff
+        font-size: 30px
+        font-weight: 400
+        line-height: 25px
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        align-items: center
+        justify-content: center
+  & .downloads
+    height: 150px
+    background-color: #82b1ff
+    & span
+        height: 60px
+        width: 60px
+        font-family: 'Material Icons'
+        background-color: #ffffff
+        border-radius: 50%
+        color: #82b1ff
+        font-size: 30px
+        font-weight: 400
+        line-height: 25px
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        align-items: center
+        justify-content: center
+  & .installs
+    height: 150px
+    background-color: #b388ff
+    & span
+        height: 60px
+        width: 60px
+        font-family: 'Material Icons'
+        background-color: #ffffff
+        border-radius: 50%
+        color: #b388ff
+        font-size: 30px
+        font-weight: 400
+        line-height: 25px
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        align-items: center
+        justify-content: center
+  & .users
+    height: 150px
+    background-color: #ea80fc
+    & span
+        height: 60px
+        width: 60px
+        font-family: 'Material Icons'
+        background-color: #ffffff
+        border-radius: 50%
+        color: #ea80fc
+        font-size: 30px
+        font-weight: 400
+        line-height: 25px
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        align-items: center
+        justify-content: center
+
+.section4
+  margin-top: 100px
+  & .services
+    text-align: center
+    & h2
+      text-transform: uppercase
+      font-size: 45px
+      font-weight: 400
+    & p
+      margin-top: 29px
+      color: #b0bec5
+      font-size: 15px
+      line-height: 25px
+
+  .accordion
+    margin-top: 48px
+    & .statistics
+      display: block
+      height: 240px
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1)
+      border-radius: 5px
+      background-color: #ffffff
+      & .down
+        font-family: 'Material Icons'
+        display: block
+        color: $dark
+        font-size: 25px
+        font-weight: 400
+        line-height: 25px
+        position: relative
+        float: right
+        right: 25px
+        top: 25px
+        cursor: pointer
+      & .up
+        font-family: 'Material Icons'
+        display: block
+        color: $dark
+        font-size: 20px
+        font-weight: 400
+        line-height: 25px
+        position: relative
+        top: 24px
+        left: 25px
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        cursor: pointer
+      & .stats
+        font-family: sans-serif
+        color: $dark
+        text-transform: uppercase
+        margin-left: 25px
+    & .stat-img
+      margin-top: 50px
+      margin-left: 25px
+      float: left
+    & .description
+      display: block
+      width: 400px
+      height: 155px
+      float: right
+      margin-left: 25px
+      color: $dark
+      font-size: 19px
+
+  & .inbox
+    margin-top: 20px
+    height: 50px
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.13)
+    border-radius: 5px
+    background-color: #ffffff
+  & .down
+    font-family: 'Material Icons'
+    display: block
+    color: $dark
+    font-size: 25px
+    font-weight: 400
+    line-height: 25px
+    position: relative
+    float: right
+    top: 11px
+    right: 22px
+    cursor: pointer
+  & .mail
+    font-family: 'Material Icons'
+    display: block
+    color: $dark
+    font-size: 25px
+    font-weight: 400
+    line-height: 25px
+    cursor: pointer
+    position: relative
+    top: 12px
+    left: 20px
+    & .name
+      box-shadow: none
+      font-family: sans-serif
+      color: $dark
+      text-transform: uppercase
+      margin-left: 25px
+      position: relative
+      bottom: 3px
+
+
+.section5
+  margin-top: 100px
+  width: 100%
+  height: 564px
+  background-color: #1de9b6
+  background: linear-gradient(53deg, rgba(#00b8d4, 0.9) 0%, rgba(#1de9b6, 0.9) 100%), url(2.png)
+  background-size: cover
+  & h2
+    width: 441px
+    margin-top: 134px
+    color: #fff
+    font-size: 45px
+  & p
+    margin-top: 19px
+    font-size: 20px
+  & a
+    display: flex
+    margin-top: 100px
+    width: 150px
+    height: 55px
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15)
+    border-radius: 5px
+    background-color: $dark
+    text-transform: uppercase
+    align-items: center
+    justify-content: center
+    font-size: 16px
+    float: left
+    &:hover
+      background: lighten($dark, 15%)
+  & .review
+    margin-top: 90px
