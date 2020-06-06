@@ -1,0 +1,62 @@
+.section4 {
+  height: 722px;
+}
+.section4 p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+.section4 .tarifs {
+  margin-top: 50px;
+}
+.section4 .tarifs .tarif {
+  height: 400px;
+  background-color: #fff;
+  margin-left: 32px;
+  padding: 0;
+}
+.section4 .tarifs .name {
+  width: 100%;
+  background-color: #F7F7F7;
+  height: 60px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4 .tarifs .name p {
+  margin: 0;
+  font-size: 22px;
+}
+.section4 .tarifs .price .pric {
+  font-size: 28px;
+  font-family: "Proba Pro Bold";
+  color: #000;
+}
+.section4 .tarifs .price .days {
+  font-size: 28px;
+}
+.section4 .tarifs .price .specs {
+  font-size: 18px;
+  color: #000;
+}
+.section4 .tarifs .btn {
+  background-color: #fff;
+  border: 1px solid black;
+  margin: 15px 50px;
+  transition: all 0.3s;
+}
+.section4 .tarifs .btn:hover {
+  background-color: #8FAA63;
+  border: 1px solid #8FAA63;
+}
+.section4 .tarifs .btn:hover p {
+  color: #fff;
+}
+.section4 .tarifs .btn p {
+  font-size: 14px;
+  font-family: "Proba Pro Bold";
+}
+
+/*# sourceMappingURL=tarifs.css.map */

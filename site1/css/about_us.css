@@ -1,0 +1,26 @@
+.section4 {
+  height: 620px;
+  margin-top: 40px;
+}
+.section4 h2 {
+  font-size: 32px;
+  text-align: center;
+}
+.section4 .description {
+  margin-top: 51px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.section4 .description p {
+  font-size: 1em;
+}
+.section4 .description span {
+  color: #8faa63;
+}
+.section4 .description .about {
+  max-height: 300px;
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=about_us.css.map */

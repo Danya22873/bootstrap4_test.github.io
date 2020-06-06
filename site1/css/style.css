@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "Proba Pro Regular";
+  src: url("../fonts/ProbaPro-Regular.eot");
+  src: url("../fonts/ProbaPro-Regular.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/ProbaPro-Regular.woff") format("woff");
+  src: url("../fonts/ProbaPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proba Pro Bold";
+  src: url("../fonts/ProbaPro-Bold.eot");
+  src: url("../fonts/ProbaPro-Bold.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/ProbaPro-Bold.woff") format("woff");
+  src: url("../fonts/ProbaPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.section1 {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin-top: 63px;
+}
+.section1 p {
+  font-family: "Proba Pro Regular";
+  font-size: 20.9px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #3e3e41;
+  margin-left: 11px;
+}
+.section1 .name {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+}
+.section1 .nav {
+  margin-top: 40px;
+}
+.section1 li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 26px;
+}
+.section1 a {
+  color: #3e3e41;
+  font-family: "Proba Pro Regular";
+  text-decoration: none;
+  font-size: 15.7px;
+  transition: all 0.2s;
+}
+.section1 a:hover {
+  color: #b34b4b;
+}
+
+.section2 {
+  margin-top: 37px;
+  width: 100%;
+  height: 530px;
+  background: url(../img/2.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.section2 h1 {
+  margin-top: 40px;
+  font-family: "Proba Pro Bold";
+  font-size: 50.1px;
+  color: #3e3e41;
+  text-align: center;
+}
+.section2 a {
+  margin-top: 48px;
+  text-decoration: none;
+}
+.section2 .btn {
+  font-family: "Proba Pro Regular";
+  width: 160px;
+  height: 35px;
+  background-color: #8faa63;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3e3e41;
+  transition: all 0.2s;
+}
+.section2 .btn:hover {
+  background-color: #9bb374;
+}
+
+.section3 {
+  height: 123px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+}
+.section3 img {
+  width: 100%;
+  height: 100%;
+}
+.section3 .flag {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.section3 .language {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+}
+.section3 .language a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #3e3e41;
+  font-family: "Proba Pro Regular";
+}
+
+.section4 {
+  background: url(../img/s4.png);
+  background-size: cover;
+  min-height: 350px;
+}
+.section4 h2 {
+  margin-top: 81px;
+  font-size: 18.3px;
+  font-family: "Proba Pro Regular";
+}
+.section4 .education {
+  margin-top: 56px;
+}
+.section4 h3 {
+  font-family: "Proba Pro Bold";
+  font-size: 26.1px;
+}
+.section4 p {
+  margin-top: 18px;
+  font-family: "Proba Pro Regular";
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.section5 {
+  height: 314px;
+  background: url(../img/footer.png);
+  background-size: cover;
+}
+.section5 .flogo {
+  margin-top: -40px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+}
+.section5 .flogo p {
+  font-family: "Proba Pro Regular";
+  font-size: 20.9px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 11px;
+  margin-right: 5px;
+}
+.section5 .contact {
+  margin-top: 103px;
+  color: #fff;
+  font-family: "Proba Pro Regular";
+  font-size: 20.2px;
+  line-height: 30px;
+}
+.section5 .contact a {
+  color: #fff;
+  text-decoration: none;
+}
+.section5 .nav {
+  margin-top: 103px;
+}
+.section5 .nav ul {
+  list-style: none;
+}
+.section5 .nav ul a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Proba Pro Regular";
+  font-size: 20.2px;
+  position: relative;
+}
+.section5 .nav ul li {
+  margin-top: 25px;
+}
+
+.section6 {
+  height: 53px;
+  background-color: #292929;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Proba Pro Regular";
+}
+
+/*# sourceMappingURL=style.css.map */

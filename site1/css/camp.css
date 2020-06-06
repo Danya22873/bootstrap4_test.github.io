@@ -1,0 +1,31 @@
+.section4 {
+  height: 1300px;
+}
+.section4 img {
+  margin-top: 56px;
+  width: 936px;
+  height: 351px;
+}
+.section4 p {
+  font-size: 18px;
+}
+.section4 .camp_description {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.section4 .camp_description h2 {
+  color: #8FAA63;
+  text-align: justify;
+}
+.section4 .left-bar {
+  overflow-x: hidden;
+  height: 430px;
+}
+.section4 .right-bar {
+  overflow-x: hidden;
+  height: 410px;
+  margin-left: 45px;
+}
+
+/*# sourceMappingURL=camp.css.map */
