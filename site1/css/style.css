@@ -82,8 +82,8 @@
 }
 .section2 .btn {
   font-family: "Proba Pro Regular";
-  width: 160px;
-  height: 35px;
+  width: 200px;
+  height: 50px;
   background-color: #8faa63;
   display: -webkit-flex;
   display: -ms-flex;
@@ -92,6 +92,7 @@
   align-items: center;
   color: #3e3e41;
   transition: all 0.2s;
+  font-size: 3em;
 }
 .section2 .btn:hover {
   background-color: #9bb374;
